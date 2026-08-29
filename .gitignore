@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Generated reports (keep the directory via reports/.gitkeep)
+reports/*.json
+reports/*.html
+reports/*.txt
+!reports/.gitkeep
+
+.DS_Store
+*.swp
